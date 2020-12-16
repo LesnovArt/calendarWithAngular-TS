@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CalendarComponent } from "../app/calendar/calendar.component";
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-app';
+  calendar = new CalendarComponent();
 }
+
+
